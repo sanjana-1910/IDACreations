@@ -7,6 +7,7 @@ import Careers from './components/Careers';
 import Contact from './components/Contact';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (

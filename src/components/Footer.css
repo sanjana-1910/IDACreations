@@ -1,1 +1,24 @@
+.footer{
+  background-image: url('../images/background.png');
+  display: flex;
+  flex-direction: row;
+  gap:90px;
+}
 
+.flexbox item-1{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+
+.words{
+  width:100%;
+  background-color: rgba(238, 238, 246, 0.2);
+  color:white;
+  font-family: 'poppins';
+  padding:30px;
+  border-radius: 30px;
+  margin-left:50%;
+
+}
