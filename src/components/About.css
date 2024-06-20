@@ -1,0 +1,347 @@
+/* .container{
+  background-image: linear-gradient(to bottom right,rgb(59,4, 110),rgb(86, 2, 63),rgb(59, 4, 110),rgb(86, 2, 63),rgb(59, 4, 110),rgb(86, 2, 63));
+  background-size:cover;
+  color:white;
+
+} */
+
+/* .container{
+  background-image:url('../images/background.png');
+  background-size: cover;
+  height:auto;
+  color:white;
+}
+.about{
+  color:white;
+  background-image: url('../images/aboutimg.jpg');
+  background-size:cover;
+  padding-top:5%;
+  height:100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ahead{
+  margin-left:10%;
+  margin-top:5%;
+  font-family: 'poppins';
+  font-size: 3rem;
+  font-weight: 700;
+  color:white;
+}
+
+span{
+  color:rgb(216, 6, 139);
+}
+
+.para{
+  
+  font-family: 'poppins';
+  text-align: center;
+ margin-left:16%;
+ margin-right:16%;
+ 
+}
+
+.para h1{
+  font-size: 2.3rem;
+  font-family: 'poppins';
+  font-weight: 600;
+}
+
+.para h2{
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.about-btn{
+  background-image: linear-gradient(to right,rgb(72, 0, 139),rgb(146, 10, 109));
+  color:white;
+  padding:20px;
+  font-family: 'poppins';
+  font-size: 0.9rem;
+  border-radius: 40px;
+  border:none;
+  transition:0.5s;
+  margin-bottom:5%;
+}
+
+.about-btn:hover{
+  scale:1.1;
+  transition:0.5s;
+}
+
+.abt-banner{
+  height:350px;
+  width:100%;
+  border-radius: 30px;
+  margin-bottom:5%;
+  transition: 1s;
+}
+
+.abt-banner:hover{
+  scale:1.1;
+  transition: 1s;
+}
+.vis-head{
+  font-family: 'poppins';
+  margin-left: 16%;
+}
+.vis-head h1{
+  font-size:1.2rem;
+  font-weight: 300;
+}
+
+.vis-head h2{
+  font-size: 2.4rem;
+}
+
+.vision-mission{
+  display: flex;
+  gap:30px;
+  margin-left:16%;
+  margin-right:10%;
+ margin-top:4%;
+ 
+}
+
+.vision{
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right,rgb(56, 12, 98),rgb(90, 3, 66));
+  color:white;
+  border-radius: 25px;
+  height:200px;
+  width:40%;
+  font-family: 'poppins';
+  padding:20px;
+}
+.vision h1,.mission h1{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.vision h2,.mission h2{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+ 
+}
+
+.mission{
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right,rgb(56, 12, 98),rgb(90, 3, 66));
+  /* background-color: rgba(238, 238, 246, 0.2); */
+  /* border-radius: 25px;
+  height:200px;
+  width:40%;
+  padding:20px;
+}
+
+.vision h1::before,.mission h1::before {
+  content: '';
+  border-left: 3px solid rgb(230, 6, 170);
+
+  height: 100%;
+ 
+  margin-right: 10px;
+  
+} */
+
+
+
+
+.container {
+  background-image: url('../images/background.png');
+  background-size: cover;
+  height: auto;
+  color: white;
+  padding: 20px;
+}
+
+.about {
+  color: white;
+  background-image: url('../images/aboutimg.jpg');
+  background-size: cover;
+  padding-top: 5%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ahead {
+  margin-left: 10%;
+  margin-top: 5%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+}
+
+span {
+  color: rgb(216, 6, 139);
+}
+
+.para {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-left: 16%;
+  margin-right: 16%;
+}
+
+.para h1 {
+  font-size: 2.3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.para h2 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.about-btn {
+  background-image: linear-gradient(to right, rgb(72, 0, 139), rgb(146, 10, 109));
+  color: white;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  border-radius: 40px;
+  border: none;
+  transition: 0.5s;
+  margin-bottom: 5%;
+}
+
+.about-btn:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.abt-banner {
+  height: 350px;
+  width: 100%;
+  border-radius: 30px;
+  margin-bottom: 5%;
+  transition: 1s;
+}
+
+.abt-banner:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.vis-head {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 16%;
+}
+
+.vis-head h1 {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.vis-head h2 {
+  font-size: 2.4rem;
+}
+
+.vision-mission {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 16%;
+  margin-right: 10%;
+  margin-top: 4%;
+}
+
+.vision, .mission {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right, rgb(56, 12, 98), rgb(90, 3, 66));
+  color: white;
+  border-radius: 25px;
+  height: 200px;
+  width: 40%;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.vision h1, .mission h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.vision h2, .mission h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.vision h1::before, .mission h1::before {
+  content: '';
+  border-left: 3px solid rgb(230, 6, 170);
+  height: 100%;
+  margin-right: 10px;
+}
+
+/* Mobile responsiveness */
+
+@media (max-width: 768px) {
+  .ahead {
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 2.5rem;
+  }
+
+  .para {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .vision-mission {
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .vision, .mission {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .abt-banner {
+    height: auto;
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .ahead {
+    font-size: 2rem;
+  }
+
+  .para h1 {
+    font-size: 1.8rem;
+  }
+
+  .para h2 {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+
+  .about-btn {
+    padding: 15px;
+    font-size: 0.8rem;
+  }
+
+  .vis-head h2 {
+    font-size: 2rem;
+  }
+}

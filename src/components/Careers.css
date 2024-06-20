@@ -1,0 +1,232 @@
+/* .careers{
+  background-image: url('../images/background.png');
+  background-size: cover;
+  color:white;
+  font-family: 'poppins';
+}
+
+.car1{
+font-size: 2.7rem;
+text-align: center;
+font-weight: 500;
+
+}
+.team{
+  color:rgb(172, 4, 139);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.pa{
+  width:700px;
+  line-height: 40px;
+margin-left:28%;
+font-size: 1.2rem;
+font-weight: 300;
+text-align: center;
+}
+
+.car2{
+width:700px;
+font-size: 1.2rem;
+line-height: 40px;
+margin-left:28%;
+font-weight: 300;
+text-align: center;
+display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.next{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.careerimg{
+  width:50%;
+  height:50vh;
+  border-radius: 30px;
+  margin-left:3%;
+  
+}
+.car-position{
+  text-align: center;
+  margin-top:4%;
+  margin-bottom:2%;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.cardbtn1{
+  padding:15px;
+  border-radius: 30px;
+  font-family: 'poppins';
+}
+
+.card-title1{
+  font-size: 1.6rem;
+}
+
+@media (max-width: 600px) {
+  .car1{
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  .car1 span{
+    font-weight: 700;
+    font-size: 2.4rem;
+  }
+
+  .car2 p{
+    font-size:1.1rem;
+    text-align: center;
+    margin-left:0;
+  }
+}
+ */
+
+
+ .careers {
+  background-image: url('../images/background.png');
+  background-size: cover;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.car1 {
+  font-size: 2.7rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.team {
+  color: rgb(172, 4, 139);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.pa {
+  width: 700px;
+  line-height: 40px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.car2 {
+  width: 700px;
+  font-size: 1.2rem;
+  line-height: 40px;
+  margin: 0 auto;
+  font-weight: 300;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.careerimg {
+  width: 50%;
+  height: 50vh;
+  border-radius: 30px;
+  margin-left: 3%;
+}
+
+.car-position {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.maincard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex {
+  margin: 10px;
+}
+
+.cards {
+  width: 20rem;
+  margin-bottom: 20px;
+}
+
+.cardbtn1 {
+  padding: 15px;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-title1 {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 768px) and (min-width:601px){
+  .pa, .car2 {
+    width: 90%;
+  }
+
+  .careerimg {
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .car-position {
+    font-size: 2.2rem;
+  }
+
+  .cards {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .car1 {
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  
+  .team {
+    font-weight: 700;
+    font-size: 2.4rem;
+  }
+
+  .car2 {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .pa {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+
+  .careerimg {
+    width: 90%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .car-position {
+    font-size: 2rem;
+  }
+
+  .cards {
+    width: 100%;
+  }
+}

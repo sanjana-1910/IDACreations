@@ -1,0 +1,74 @@
+.services {
+  background-image: url("../images/background.png");
+  background-size: cover;
+}
+
+.servicehead {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 600;
+  font-family: 'poppins';
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.cards {
+  padding: 20px;
+  background-image: linear-gradient(to right, rgb(56, 12, 98), rgb(90, 3, 66));
+  border-radius: 40px;
+  margin: 5%;
+  color: white;
+  font-family: 'poppins';
+}
+
+.cardimg {
+  border-radius: 40px;
+}
+
+.maincard {
+  display: flex;
+  gap: 90px;
+  margin-left: 4%;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  margin-bottom: 0;
+
+
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-top: 10%;
+}
+
+.card-content {
+  font-size: 0.9rem;
+  line-height: 30px;
+  font-weight: 250;
+}
+
+.cardbtn {
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  font-family: 'poppins';
+  font-size: 0.9rem;
+  background-color: rgb(203, 203, 203);
+
+}

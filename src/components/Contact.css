@@ -1,0 +1,68 @@
+.contact-form {
+  max-width: 500px;
+
+  margin: 0 auto;
+  padding: 2.4em;
+  background-image: linear-gradient(to right,rgb(81, 12, 146),rgb(90, 3, 66));
+  border-radius: 5px;
+}
+.contact{
+background-image: url('../images/background.png');
+height:100vh;
+}
+
+.contact-head{
+  font-family: 'poppins';
+  font-size: 2.5rem;
+  color:white;
+  text-align: center;
+  margin-bottom:5%;
+}
+.contact-form h2 {
+  margin-bottom: 1em;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-family: 'poppins';
+  font-size: 1.2rem;
+  color:white;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border:none;
+}
+
+.error {
+  color: rgb(250, 248, 248);
+  font-size: 1rem;
+  margin-top: 0.5em;
+}
+
+.contact-btn {
+  padding:16px;
+  border-radius: 30px;
+  border:none;
+  font-family: 'poppins';
+  font-size: 1rem;
+  background-color: rgb(203, 203, 203);
+  text-align: center;
+  margin-left:35%;
+  margin-top:4%;
+  transition: 0.5s;
+}
+
+button:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
